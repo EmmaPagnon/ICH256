@@ -10,13 +10,12 @@ $(function() {
                         $("h2.anecdote+p").css("color", "white")
                         $("body").css("color", "black")
                         change= false;
-                        $(".anecdote+p").hide();
                 }
                 else {
-
                         location.reload();
                         change = true;
                 }
+               
         });
 });
 
