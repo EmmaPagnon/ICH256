@@ -1,3 +1,4 @@
+
 /* Container holding the image and the text */
 .container {
     position: relative;
@@ -24,5 +25,5 @@
 
     position: absolute;
     background-color: olive;
-    color: aliceblue;
+    color: purple;
 }
