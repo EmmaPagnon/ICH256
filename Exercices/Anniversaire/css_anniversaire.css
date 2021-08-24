@@ -1,0 +1,28 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: purple;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 15px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Lucida Handwriting
+
+}
+
+/* First sentence */
+.first {
+
+    position: absolute;
+    background-color: olive;
+    color: aliceblue;
+}
