@@ -15,7 +15,11 @@ $(function() {
                         location.reload();
                         change = true;
                 }
+<<<<<<< HEAD
 
+=======
+               
+>>>>>>> main
         });
 });
 
