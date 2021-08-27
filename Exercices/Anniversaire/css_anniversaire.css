@@ -9,21 +9,26 @@
 }
 
 /* Centered text */
-.centered {
+.centered,h1.centered{
+    position: absolute;
+    border-color: olive;
+    background-color: aliceblue;
+    border-radius: 15px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Lucida Handwriting;
+
+}
+
+/* rest of the text */
+.first,.second,.third, .final {
     position: absolute;
     background-color: aliceblue;
     border-radius: 15px;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Lucida Handwriting
+    font-family: Lucida Handwriting;
 
-}
-
-/* First sentence */
-.first {
-
-    position: absolute;
-    background-color: olive;
-    color: purple;
 }
