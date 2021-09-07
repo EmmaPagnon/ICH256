@@ -1,34 +1,30 @@
-
-/* Container holding the image and the text */
-.container {
+.container{
+    text-align: center;
+}
+.ml4 {
     position: relative;
     text-align: center;
-    color: purple;
-    font-family: Verdana, Arial, sans-serif;
-
+    font-weight: 900;
+    font-size: 4.5em;
 }
-
-/* Centered text */
-.centered,h1.centered{
+.ml4 .letters {
     position: absolute;
-    border-color: olive;
-    background-color: aliceblue;
-    border-radius: 15px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Lucida Handwriting;
-
+    margin: auto;
+    color: olive;
+    left: 0;
+    top: 0.2em;
+    right: 0;
+    opacity: 0;
 }
-
-/* rest of the text */
-.first,.second,.third, .final {
+.gif_left{
+    bottom: 20%; /* your required value */
+    left: 0;
+    width: 20px;
     position: absolute;
-    background-color: aliceblue;
-    border-radius: 15px;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Lucida Handwriting;
-
+}
+.gif_right{
+    bottom: 20%; /* your required value */
+    right: 0;
+    width: 20px;
+    position: absolute;
 }
